@@ -1,0 +1,45 @@
+.formp{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.formh{
+    height: 450px;
+    border: solid;
+    border-radius: 5px;
+    padding: 0 20px 0 20px;
+    background: white;
+}
+body{
+    background:  white url(img/mosaico.jpg) repeat-x;
+    font-family: 'Volkhov', serif;
+}
+table{
+    text-align: justify;
+    width: 100%;
+}
+tr{
+    height: 50px;
+}
+.button {
+    background-color: #6b6767;
+    font-family: 'Volkhov', serif;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 125px;
+}
+.button:hover {
+    background-color: #D8D3CB;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    color: black;
+}
