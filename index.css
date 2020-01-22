@@ -1,0 +1,38 @@
+.formp{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.formh{
+    height: 200px;
+    border: solid;
+    border-radius: 5px;
+    padding: 0 20px 0 20px;
+    background: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 300px;
+}
+body{
+    background:  white url(img/mosaico.jpg) repeat-x;
+    font-family: 'Volkhov', serif;
+}
+.boton{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Volkhov', serif;
+    font-size: 18px;
+    background-color: gray;
+    border-radius: 2px;
+    border: 2px solid black;
+}
+.boton:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.marginForm{
+    height: 40px;
+}
